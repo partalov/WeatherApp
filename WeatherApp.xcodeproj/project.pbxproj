@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3246E16D260B4C7200077687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3246E16C260B4C7200077687 /* Main.storyboard */; };
+		3246E171260B4EC900077687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3246E170260B4EC900077687 /* Main.storyboard */; };
 		32BA9211250FE6390092A798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA9210250FE6390092A798 /* AppDelegate.swift */; };
 		32BA9213250FE6390092A798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA9212250FE6390092A798 /* SceneDelegate.swift */; };
 		32BA921D250FE63B0092A798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BA921B250FE63B0092A798 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3246E16C260B4C7200077687 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3246E170260B4EC900077687 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Main.storyboard; sourceTree = "<group>"; };
 		32BA920D250FE6390092A798 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BA9210250FE6390092A798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BA9212250FE6390092A798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		32BA9225250FE6B10092A798 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3246E16C260B4C7200077687 /* Main.storyboard */,
+				3246E170260B4EC900077687 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Ilija Partalov";
 				TargetAttributes = {
 					32BA920C250FE6390092A798 = {
@@ -160,7 +160,7 @@
 			files = (
 				32BA921D250FE63B0092A798 /* LaunchScreen.storyboard in Resources */,
 				32BA9230250FE8390092A798 /* Assets.xcassets in Resources */,
-				3246E16D260B4C7200077687 /* Main.storyboard in Resources */,
+				3246E171260B4EC900077687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +220,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -280,6 +281,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
